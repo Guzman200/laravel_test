@@ -128,7 +128,7 @@ $("#tabla_test").DataTable({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /opt/lampp/htdocs/laravel_1/resources/js/test.js */"./resources/js/test.js");
+module.exports = __webpack_require__(/*! /opt/lampp/htdocs/laravel_test/resources/js/test.js */"./resources/js/test.js");
 
 
 /***/ })

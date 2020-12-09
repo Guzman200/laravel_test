@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Livewire\UsersTable;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +14,6 @@ use App\Http\Livewire\UsersTable;
 |
 */
 
-Route::get('/', [UsersTable::class, 'render']);
+Route::get('/', [TestController::class, 'index']);
 
 Route::get('getdata', [TestController::class, 'datatables'])->name('getdata');

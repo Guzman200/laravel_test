@@ -25,7 +25,7 @@
       <div class="card p-4">
         <div class="card-body">
           
-            @yield('contenido')
+            @livewire('contador')
 
         </div>
       </div>
@@ -43,7 +43,7 @@
       <script src="{{asset('js/app.js')}}"></script>
       {{--<script src="{{asset('js/test.js')}}"></script>--}}
 
-      @@livewireScripts
+      @livewireScripts
 
       <script>
         
