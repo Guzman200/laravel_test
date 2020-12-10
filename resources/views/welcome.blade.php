@@ -25,7 +25,9 @@
       <div class="card p-4">
         <div class="card-body">
           
+           <div>
             @livewire('contador')
+           </div>
 
         </div>
       </div>
@@ -41,16 +43,10 @@
       <script src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script>
           
       <script src="{{asset('js/app.js')}}"></script>
-      {{--<script src="{{asset('js/test.js')}}"></script>--}}
-
-      @livewireScripts
-
-      <script>
-        
-      </script>
-       
        
     </body>
+
+    @livewireScripts
 
     
 </html>
